@@ -140,7 +140,7 @@ export default function Form() {
       <label htmlFor="role">
         Which role were you hired for?
         <select id="role" name="role" onChange={inputChange}>
-        <option value="Select an Option">Select an Option</option>
+        <option value="">Select an Option</option>
             <option value="Front-End Developer">Front-End Developer</option>
             <option value="Back-End Developer">Back-End Developer</option>
             <option value="Full-Stack Developer">Full-Stack Developer</option>
